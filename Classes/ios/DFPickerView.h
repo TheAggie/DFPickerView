@@ -61,4 +61,6 @@ typedef NSString *(^ConverterBlock)(id object);
              index:(NSInteger)index
           animated:(BOOL)animated;
 
+- (void)hide;
+
 @end
